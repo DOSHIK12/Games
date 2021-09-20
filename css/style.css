@@ -1,0 +1,109 @@
+body {
+	background-color: #353b48;
+	margin: 0;
+	font-family: 'Lobster', cursive;
+}
+.menu {
+	background-color: #40739e;
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	box-shadow: 1px 4px 8px #5f27cd;
+}
+a {
+	text-decoration: none;
+}
+.menu a {
+	display: inline-block;
+	padding: 20px;
+	color: #ff9ff3;
+	font-size: 18px;
+}
+.menu a:hover {
+	background-color: #3742fa;
+}
+.first-screen {
+	background-image: url(../images/Фон.jpg);
+	padding: 300px 0px;
+	background-attachment: fixed;
+}
+.first-screen h1 {
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	text-shadow: 1px 5px 10px #4834d4;
+}
+.about {
+	padding: 80px 20px;
+	text-align: center;
+	color: #4cd137;
+}
+h2 {
+	font-size: 25px;
+	text-decoration: underline;
+}
+.about img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	box-shadow: 6px 6px 10px #D980FA;
+}
+.games {
+	text-align: center;
+	background-image: url(../images/R.jpg);
+	background-size: cover;
+	color: white;
+	padding: 30px;
+	background-attachment: fixed;
+}
+.game {
+	width: 300px;
+	display: inline-block;
+	margin: 20px;
+	background-color: #0652DD;
+	border-radius: 20px;
+}
+.game img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 20px;	
+}
+.game:hover {
+	background-color: #F79F1F;
+	transition: 0.5s;
+}
+.contacts {
+	text-align: center;
+	padding: 40px 0px;
+	color: #4cd137;
+}
+form {
+	width: 50%;
+	border: 4px groove #EA2027;
+	display: inline-block;
+	text-align: left;
+	padding: 20px;
+	border-radius: 20px;
+}
+input, textarea, select, button {
+	display: block;
+	width: 100%;
+	padding: 15px;
+	margin: 10px 0;
+	border: 3px solid #e056fd;
+}
+* {
+	box-sizing: border-box;
+}
+button {
+	background-color: #EA2027;
+	border-radius: 30px;
+}
+label {
+	color: #4cd137;
+}
+.about-info {
+	width: 70%;
+	margin: 10px auto;
+}

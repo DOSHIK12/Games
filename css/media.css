@@ -1,0 +1,26 @@
+@media (max-width: 575px){
+	.menu {
+		position: static;
+	}.first-screen {
+		padding: 150px 0px;
+	}form {
+		width: 80%;
+	}.menu a {
+		display: block;
+	}
+}
+@media (max-width: 375px){
+	.first-screen h1 {
+		font-size: 48px;
+	}.game {
+		margin-left: 0;
+		margin-right: 0;
+	}.games {
+		padding: 10px;
+	}form {
+		width: 95%;
+	}.about img {
+		width: 200px;
+		height: 200px;
+	}
+}
